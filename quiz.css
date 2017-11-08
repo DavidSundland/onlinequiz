@@ -1,0 +1,350 @@
+body
+{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+body *
+{
+    color: white;
+    font-size: 22px;
+    font-family: 'Nova Flat', cursive;
+    box-sizing: border-box;
+}
+
+.submitButton, button
+{
+    cursor: pointer;
+    cursor: hand;
+    z-index: 10;  /* in case button gets hidden by image on smaller screens */
+}
+
+#index
+{
+    background-image: url("http://www.districtconcerts.com/wp-content/uploads/2017/10/QuestionMark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.darkener
+{
+    background-color: black;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.master
+{
+    padding: 60px 180px;
+
+}
+
+.beginningAndEnd p, .beginningAndEnd li, .beginningAndEnd i,  .beginningAndEnd b
+{
+    color: #b52025;
+    font-weight: 400;
+    text-shadow: 0px 0px 2px rgba(255,255,255,0.3), 2px 2px 2px black;
+/*    text-shadow: 2px 2px 2px black;*/
+}
+
+.beginningAndEnd li, .beginningAndEnd i, .beginningAndEnd span, .beginningAndEnd b
+{
+    color: #e45459;
+}
+
+.beginningAndEnd button
+{
+    position: relative;
+    display: block;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 auto;
+    background-color: #040c1b;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.beginningAndEnd a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.beginningAndEnd h1
+{
+    color: #e4d154;
+    margin-bottom: 5px;
+}
+
+#index h2, #perfectHeader h2
+{
+    color: #e49f54;
+    margin-top: 5px;
+}
+
+h1
+{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 600;
+}
+
+h2
+{
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+}
+
+h3
+{
+    font-size: 1.3em;
+    text-align: center;
+    color: #cb651a;
+    text-shadow: 2px 2px 5px white;
+}
+
+h4, h4 *
+{
+    font-size: 1.4em;
+    color: #934e5f;
+    font-weight: bold;
+    padding: 0 40px;  /* side padding to keep text from overflowing crystal ball */
+    text-shadow: 2px 2px 5px white;
+}
+
+div
+{
+    display: inline-block;
+}
+
+.middle
+{
+    position: relative;
+    width: 60%;
+    background-image: url("http://www.districtconcerts.com/wp-content/uploads/2017/10/CrystalBall.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;  /* set to excess since no other divs that could be screwed up */
+}
+
+.left
+{
+    margin-top: 70px;
+    float: left;
+    width: 20%;
+}
+
+.imgHolder
+{
+    z-index: 1;
+    position: fixed;
+    top: 150px;
+    left: 150px;
+}
+
+#imgHolder
+{
+    opacity: 0.8;
+    transition: opacity 3s ease-in;
+}
+
+.imgHolder img
+{
+    max-width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 200px white;
+}
+
+.divHolder
+{
+    width: 70%;
+    z-index: 2;
+    top: 0;
+    margin: 100px auto;
+    display: block;
+    text-align: center;
+}
+
+.imageHolder
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    position: relative;
+    opacity: .8;
+    border: none;
+}
+
+.imageShadow
+{
+    box-shadow: 0 0 50px 20px white inset;
+}
+
+.ratioGuardian  /* Could not get aspect ratio (padding-top) to work unless first child div had position absolute */
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;  /* Without setting the width, etc., the div hugs its left boundary */
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.textHolder
+{
+    margin: auto;
+    text-align: center;
+}
+
+.imgHolder img
+{
+    width: 100%;
+}
+
+.middle form
+{
+    color: black;
+    line-height: 30px;
+}
+
+input, label
+{
+    color: black;
+}
+
+.divHolder p
+{
+    margin-top: 200px;
+}
+
+.formHolder
+{
+    display: inline-block;
+    margin: auto;
+    text-align: left;
+}
+
+input[type="radio"] /* These style settings (including those under 'label'), are to indent multi-line test questions */
+{    
+    float: left;
+}
+
+label
+{ 
+    margin-left: 25px;
+    display: block;
+    font-weight: 600;
+    text-shadow: 0px 0px 4px white;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.right
+{
+    margin-top: 70px;
+    float: right;
+    width: 20%;
+}
+
+img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+input:not([type = "radio"])
+{
+    margin-top: 10px;
+    color: black;
+    margin: auto;
+    display: block;
+}
+
+#rightOrWrong
+{
+    opacity: 0;
+    z-index: -1;  /* Hide this DIV initially so that it does not interfere with (cover the layer with) JavaScript */
+    transition: opacity 2s ease, z-index 2.5s ease;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("http://www.agapepress.org/wp-content/uploads/2016/08/Psychic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 200px white;
+    padding: 70px 150px;
+}
+
+#rightOrWrong, #rightOrWrong span, #rightOrWrong i, #rightOrWrong b /* OK - this is irritating - if I don't include #rightOrWrong's child elements, then none of this formatting gets applied to them (so, for instance, they have a font-size of 1 em).  But if I DO apply the formatting to the child elements, it seems to get applied twice - so the font size of the span, i, or b elements is larger than the other elements.  Aargh! */
+{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#rightOrWrong button
+{
+    color: black;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#rightOrWrong img
+{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#rightOrWrong.here
+{
+    opacity: 1;
+    z-index: 3;  /* Hide this DIV initially so that it does not interfere with (cover the layer with) JavaScript */
+    transition: opacity 2s ease, z-index .2s ease;
+}
+
+#tempThing
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#perfectBody
+{
+    background-image: url("http://cdn1.theodysseyonline.com/files/2016/01/20/6358891855217481081643971881_Psychic.jpg");
+}
+
+#imperfectBody
+{
+    background-image: url("http://vignette2.wikia.nocookie.net/p__/images/c/cd/Peter_Venkman.png/revision/latest?cb=20140406175648&path-prefix=protagonist");
+}
+
+#perfectBody, #imperfectBody
+{
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#perfectText
+{
+    background-color: rgba(12, 0, 3, 0.4);
+    padding: 10px;
+    
+}
