@@ -109,10 +109,10 @@ const QUESTIONS = [
         question: 'How much wood would a woodchuck upchuck if a woodchuck drank too much wood grain alcohol?',
         answers: ["It depends on the hardness of the wood and the brand of woodchuck", "42", "Woodchucks are not stupid enough to drink wood grain alcohol - have you ever seen a woodchuck in a frat?", "0.2152 cords"],
         rightAnswer: 0,
-        wrongResponse: "For shame!  You should know that softer wood yields larger quantities of upchuck (but less painful splinters), and that AcmeT woodchucks have legendary upchuck aversion capabilities.",
+        wrongResponse: "For shame!  You should know that softer wood yields larger quantities of upchuck (but less painful splinters), and that Acme&#8482; woodchucks have legendary upchuck aversion capabilities.",
         wrongPicture: "images/unhappy_woodchuck.jpg",
         wrongPicAlt: "Picture of angry woodchuck",
-        rightResponse: "Well done!  The softer the wood, the larger the quantity of upchuck, but the less painful the splinters. Also, AcmeT woodchucks are well known for their upchuck aversion capabilities.  Invest in an AcmeT woodchuck today!",
+        rightResponse: "Well done!  The softer the wood, the larger the quantity of upchuck, but the less painful the splinters. Also, Acme&#8482; woodchucks are well known for their upchuck aversion capabilities.  Invest in an Acme&#8482; woodchuck today!",
         rightPicture: "images/happy_woodchuck.jpg",
         rightPicAlt: "Picture of happy-looking woodchuck"
     },

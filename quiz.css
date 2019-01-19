@@ -285,6 +285,10 @@ input:not([type="radio"]) {
     margin-left: auto;
 }
 
+.ascii {
+    font-family: sans-serif;
+}
+
 #rightOrWrong button {
     color: black;
     cursor: pointer;
