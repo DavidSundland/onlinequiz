@@ -239,7 +239,7 @@ function postQuestion() {
         website = `${questionArray[questionNumber].picture}`;
         console.log("In picture thingie, image URL = ", website);
         document.getElementsByClassName('imageHolder')[0].style.backgroundImage = 'url(' + website + ')';
-        document.getElementsByClassName('imageHolder')[0].setAttribute("title", questionArray[questionNumber].picAlt); // Set title to provide alternative text in case background image can't be viewed
+        document.getElementsByClassName('imageHolder')[0].setAttribute("alt", questionArray[questionNumber].picAlt); // Provide alternative text in case background image can't be viewed
         $(".imageHolder").addClass("imageShadow")
     }
     for (i = 0; i < questionArray[questionNumber].answers.length; i++) {
