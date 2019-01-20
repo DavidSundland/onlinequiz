@@ -1,7 +1,8 @@
 body {
-    background-color: black;
+    /*    background-color: black;*/
     margin: 0;
     padding: 0;
+    background-image: url(images/stars.jpg);
 }
 
 body * {
@@ -20,11 +21,13 @@ button {
 }
 
 #index {
-    background-image: url("images/question_mark.jpg");
-    background-size: cover;
+    background-image: url(images/question_mark.png);
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
+/*
 .darkener {
     background-color: black;
     opacity: .5;
@@ -35,6 +38,7 @@ button {
     left: 0;
     z-index: -1;
 }
+*/
 
 .master {
     padding: 60px 180px;
@@ -63,7 +67,7 @@ button {
     display: block;
     padding: 10px;
     border-radius: 15px;
-    margin: 0 auto;
+    margin: 30px auto;
     background-color: #040c1b;
     cursor: pointer;
     cursor: hand;
@@ -103,6 +107,7 @@ h3 {
     text-align: center;
     color: #cb651a;
     text-shadow: 2px 2px 5px white;
+    margin: 10px;
 }
 
 h4,
@@ -113,6 +118,7 @@ h4 * {
     padding: 0 40px;
     /* side padding to keep text from overflowing crystal ball */
     text-shadow: 2px 2px 5px white;
+    margin: 10px;
 }
 
 div {
@@ -201,7 +207,7 @@ div {
     /* Without setting the width, etc., the div hugs its left boundary */
     display: block;
     text-align: center;
-    margin: auto;
+    margin: 60px auto;
 }
 
 .textHolder {
@@ -339,6 +345,18 @@ input:not([type="radio"]) {
     background-color: rgba(12, 0, 3, 0.4);
     padding: 10px;
 
+}
+
+@media (max-width: 1400px) {
+    .ratioGuardian {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .ratioGuardian {
+        margin: 0px auto;
+    }
 }
 
 @media (max-width: 1000px) {
