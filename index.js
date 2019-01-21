@@ -94,14 +94,14 @@ const QUESTIONS = [
         picture: "",
         picAlt: "",
         question: 'What color am I picturing?',
-        answers: ["Fuzzy Wuzzy Brown", "Atomic Tangerine", "Banana Mania", "Screamin Green", "Razzle Dazzle Rose"],
+        answers: ["Fuzzy Wuzzy Brown", "Atomic Tangerine", "Banana Bonanza", "Screamin Green", "Razzle Dazzle Rose"],
         rightAnswer: 2,
         wrongResponse: "<b>Really?</b>  &nbsp;When one of the choices is &nbsp;<span style = 'color: #FAE7B5; background-color: black'> 'banana' </span>, &nbsp;you don't grab it?",
-        wrongPicture: "images/banana_mania.jpg",
-        wrongPicAlt: "Picture of 'banana mania' Crayola crayon",
+        wrongPicture: "images/banana_bonanza.png",
+        wrongPicAlt: "Picture of 'banana bonanza' Crayola crayon",
         rightResponse: "Of course!  How can one not choose a color with the word &nbsp;<span style = 'color: #FAE7B5; background-color: black'> 'banana' </span> &nbsp;in it?",
-        rightPicture: "images/banana_mania.jpg",
-        rightPicAlt: "Picture of 'banana mania' Crayola crayon"
+        rightPicture: "images/banana_bonanza.png",
+        rightPicAlt: "Picture of 'banana bonanza' Crayola crayon"
     },
     {
         picture: "",
