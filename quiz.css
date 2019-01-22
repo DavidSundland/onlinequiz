@@ -353,6 +353,12 @@ input:not([type="radio"]) {
     }
 }
 
+@media (max-width: 1300px) {
+    #rightOrWrong {
+        background-image: url("images/psychic_hands-skinny.jpg");
+    }
+}
+
 @media (max-width: 1200px) {
     .ratioGuardian {
         margin: 0px auto;

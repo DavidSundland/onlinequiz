@@ -32,7 +32,7 @@ const QUESTIONS = [
         answers: ["...substandard is to standard.", "...being buried alive is to dying during passionate love-making.", "...standing in line for a roller coaster is to actually riding the roller coaster.", "...plain rice cakes are to deep dish pizza.", "All of the above."],
         rightAnswer: 4,
         wrongResponse: "Partial credit!  Or, in other words...  ALL of the answers are correct, so... your response is <b>WRONG!!!</b>",
-        wrongPicture: "images/doc_brown_aghast.jpg",
+        wrongPicture: "images/doc_brown_aghast.png",
         wrongPicAlt: "Photo of Doc Brown, from Back to the Future, looking aghast.",
         rightResponse: "OK, this one was way too obvious, but you've earned a point nonetheless.",
         rightPicture: "images/doc_brown_pleased.jpg",
