@@ -368,14 +368,17 @@ input:not([type="radio"]) {
 @media (max-width: 1000px) {
     .middle {
         width: 80%;
+        margin-left: -10%;
     }
-
     .left,
     .right {
-        width: 10%;
+        width: 20%;
+    }
+    .right {
+        margin-left: -20%;
     }
     .left img,
     .right img {
-        min-height: 300px;
+        /*        min-height: 300px;*/
     }
 }
