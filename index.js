@@ -6,10 +6,10 @@ const QUESTIONS = [
         answers: ["Three", "Five", "Two", "One", "Six", "Four"],
         rightAnswer: 3,
         wrongResponse: "So sad!  You got the answer wrong.  He is holding up one finger.  (We won't say <i>which</i> &nbsp;finger.)",
-        wrongPicture: "images/gilbert_gottfried_shrug.jpg",
+        wrongPicture: "images/gilbert_gottfried_shrug.png",
         wrongPicAlt: "Gilbert Gottfried shrugging.",
         rightResponse: "You're great.  The best!  (Let's not discuss <i>which</i> &nbsp;finger he is holding up.)",
-        rightPicture: "images/gilbert_gottfried_pointing.jpg",
+        rightPicture: "images/gilbert_gottfried_pointing.png",
         rightPicAlt: "Gilbert Gottfried pointing his finger in congratulatory fashion."
     },
     {
@@ -35,7 +35,7 @@ const QUESTIONS = [
         wrongPicture: "images/doc_brown_aghast.png",
         wrongPicAlt: "Photo of Doc Brown, from Back to the Future, looking aghast.",
         rightResponse: "OK, this one was way too obvious, but you've earned a point nonetheless.",
-        rightPicture: "images/doc_brown_pleased.jpg",
+        rightPicture: "images/doc_brown_pleased.png",
         rightPicAlt: "Photo of Doc Brown, from Back to the Future, looking pleased."
     },
     {
@@ -45,10 +45,10 @@ const QUESTIONS = [
         answers: ["Playing golf.", "Watching golf.", "Taking on-line quizzes.", "Creating on-line quizzes."],
         rightAnswer: 1,
         wrongResponse: "While all of these activities represent sloth, there is no lower form of existence than <i>watching</i> &nbsp;golf.",
-        wrongPicture: "images/beavis_and_butthead.jpg",
+        wrongPicture: "images/beavis_and_butthead.png",
         wrongPicAlt: "Beavis and Butthead, looking shocked.",
         rightResponse: "Duh.",
-        rightPicture: "images/steve_buscemi.jpg",
+        rightPicture: "images/steve_buscemi.png",
         rightPicAlt: "Steve Buscemi, looking pleased."
     },
     {
@@ -58,10 +58,10 @@ const QUESTIONS = [
         answers: ["Why not?", "42", "Beer", "Pizza", "Jamie Dorman", "Emilia Clarke", "Kermit the Frog"],
         rightAnswer: 2,
         wrongResponse: "WRONG!!!  How could the answer <i>not</i> &nbsp;be beer?!!",
-        wrongPicture: "images/homer_simpson_displeased.gif",
+        wrongPicture: "images/homer_simpson_displeased.png",
         wrongPicAlt: "Homer Simpson, holding his head in anguish.",
         rightResponse: "Duh.  (And bottoms up!)",
-        rightPicture: "images/homer_simpson_pleased.jpg",
+        rightPicture: "images/homer_simpson_pleased.png",
         rightPicAlt: "Homer Simpson, holding his hands up in triumph as he shouts 'woo-hoo!'"
     },
     {
@@ -110,7 +110,7 @@ const QUESTIONS = [
         answers: ["It depends on the hardness of the wood and the brand of woodchuck", "42", "Woodchucks are not stupid enough to drink wood grain alcohol - have you ever seen a woodchuck in a frat?", "0.2152 cords"],
         rightAnswer: 0,
         wrongResponse: "For shame!  You should know that softer wood yields larger quantities of upchuck (but less painful splinters), and that Acme&#8482; woodchucks have legendary upchuck aversion capabilities.",
-        wrongPicture: "images/unhappy_woodchuck.jpg",
+        wrongPicture: "images/unhappy_woodchuck.png",
         wrongPicAlt: "Picture of angry woodchuck",
         rightResponse: "Well done!  The softer the wood, the larger the quantity of upchuck, but the less painful the splinters. Also, Acme&#8482; woodchucks are well known for their upchuck aversion capabilities.  Invest in an Acme&#8482; woodchuck today!",
         rightPicture: "images/happy_woodchuck.jpg",
@@ -136,10 +136,10 @@ const QUESTIONS = [
         answers: ["Trying to properly position elements using CSS."],
         rightAnswer: 0,
         wrongResponse: "Not sure how you got a wrong answer when there was only one option.  What the what?!!",
-        wrongPicture: "images/kitten.jpg",
+        wrongPicture: "images/kitten.png",
         wrongPicAlt: "Photo of an incredibly cute kitten.",
         rightResponse: "OK, OK, there are obviously worse things than positioning crap on websites.  But in 20 years of CSS, nobody decided that it would be beneficial to have a 'center' value for elements??!!!!<br><br>(PS - yeah, the image has nothing to do with the question or answer, but it seemed like a good time to toss a kitten onto the screen.)",
-        rightPicture: "images/kitten.jpg",
+        rightPicture: "images/kitten.png",
         rightPicAlt: "Photo of an incredibly cute kitten."
     }
 ];
