@@ -224,7 +224,7 @@ function answerSubmitted() {
             alt = questionArray[questionNumber].wrongPicAlt;
         }
         $("div#rightOrWrong").text(""); // Clear any existing text
-        $("div#rightOrWrong").html(`${response}<br><br><img src="${picture}" alt="${alt}"><br><button id = "nextQuestion" role="button">Continue</button>`);
+        $("div#rightOrWrong").html(`<p>${response}</p><br><img src="${picture}" alt="${alt}"><br><button id = "nextQuestion" role="button">Continue</button>`);
         $("#rightOrWrong").toggleClass("here");
         questionNumber++;
     });

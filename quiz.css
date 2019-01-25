@@ -382,3 +382,37 @@ input:not([type="radio"]) {
         /*        min-height: 300px;*/
     }
 }
+
+@media (max-width: 800px) {
+    .middle {
+        width: 100%;
+        margin: auto;
+        /*        margin-left: -10%;*/
+    }
+    .left,
+    .right {
+        width: 0;
+        margin: 0;
+        display: none;
+    }
+    #rightOrWrong {
+        padding: 70px 30px;
+    }
+}
+
+/* At narrow widths, background image alignment relative to text and foreground image becomes unpredictable and tends to conflict */
+
+@media (max-width: 500px) {
+    #rightOrWrong {
+        background-image: none;
+        background-color: black;
+    }
+    #rightOrWrong img {
+        width: 100%;
+    }
+    /*
+    #rightOrWrong p {
+        background-color: black;
+    }
+*/
+}
