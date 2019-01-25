@@ -133,7 +133,7 @@ const QUESTIONS = [
         picture: "",
         picAlt: "",
         question: "What is humanity's most aggravating endeavor?",
-        answers: ["Trying to properly position elements using CSS."],
+        answers: ["Trying to properly position elements for all screen sizes and browser types using CSS."],
         rightAnswer: 0,
         wrongResponse: "Not sure how you got a wrong answer when there was only one option.  What the what?!!",
         wrongPicture: "images/kitten.png",
