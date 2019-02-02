@@ -239,11 +239,12 @@ label {
     text-align: left;
 }
 
-input[type="radio"]
 /* These style settings (including those under 'label'), are to indent multi-line test questions */
-
-    {
+input[type="radio"]   {
     float: left;
+    /* shadow & background are for contrast if button is over a white area */
+    box-shadow: 2px 2px 3px grey;
+    background-color: gray;
 }
 
 label {
@@ -384,9 +385,15 @@ input:not([type="radio"]) {
     .master {
         padding: 40px 120px;
     }
+    h4, h4 * {
+        font-size: 1.2em;
+    }
 }
 
 @media (max-width: 800px) {
+    main p {
+        font-size: 18px;
+    }
     .middle {
         width: 100%;
         margin: auto;
