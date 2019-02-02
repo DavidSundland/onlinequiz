@@ -381,6 +381,9 @@ input:not([type="radio"]) {
     .right img {
         /*        min-height: 300px;*/
     }
+    .master {
+        padding: 40px 120px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -397,6 +400,9 @@ input:not([type="radio"]) {
     }
     #rightOrWrong {
         padding: 70px 30px;
+    }
+    .master {
+        padding: 20px 60px;
     }
 }
 
